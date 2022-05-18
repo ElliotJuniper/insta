@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+img {
+  width: 250px;
+	height: 250px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 15%;
+	margin: 0 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
